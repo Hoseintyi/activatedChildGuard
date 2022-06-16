@@ -21,6 +21,7 @@ export class RegisterComponent implements OnInit , CanComponentDeactivate {
   {
   if(this.input.nativeElement.value !== '')
   {
+    debugger;
     return confirm('DO YOU WANA SAVE THAT?');
     debugger;
     // if(confirm. === 'OK')
