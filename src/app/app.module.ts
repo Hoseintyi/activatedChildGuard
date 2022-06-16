@@ -9,6 +9,7 @@ import { AdminComponent } from './admin/admin.component';
 import { NotAuthorizeComponent } from './not-authorize/not-authorize.component';
 import { ManagePagesComponent } from './manage-pages/manage-pages.component';
 import { ManageUsersComponent } from './manage-users/manage-users.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ManageUsersComponent } from './manage-users/manage-users.component';
     AdminComponent,
     NotAuthorizeComponent,
     ManagePagesComponent,
-    ManageUsersComponent
+    ManageUsersComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
